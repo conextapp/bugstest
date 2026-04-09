@@ -1,0 +1,7 @@
+appId: com.conextapp.mobile
+---
+- runFlow:
+    file: ./common/login.yaml
+- tapOn: "Perfil"
+- tapOn: "Instagram"
+- assertVisible: "Rol de desarrollador insuficiente"

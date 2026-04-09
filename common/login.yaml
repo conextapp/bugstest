@@ -1,0 +1,9 @@
+appId: com.conextapp.mobile
+---
+- launchApp:
+    clearState: true
+- tapOn: "Iniciar sesión"
+- inputText: "conextapp.docs@gmail.com"
+- tapOn: "Siguiente"
+- inputText: "angeljulian1993"
+- tapOn: "Iniciar sesión"

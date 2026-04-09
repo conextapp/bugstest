@@ -1,0 +1,21 @@
+appId: com.appfact.cnxt
+---
+- tapOn: "Vista de Lista\nVista de Lista, Vista de Lista"
+- tapOn: "Servicios\nPestaña 2 de 2"
+- tapOn: "Ayuntamiento de Málaga\nGobierno municipal de la ciudad de Málaga\n9586.4\
+    \ km"
+- tapOn: "Eventos\nPestaña 2 de 3"
+- tapOn: "Documentos\nPestaña 3 de 3"
+- tapOn: "Plan General de Ordenación Urbana\nAyuntamiento de Málaga (2024)\nDocumento\
+    \ estratégico para el desarrollo urbanístico sostenible de la ciudad."
+- tapOn: "Entendido"
+- tapOn: "Eventos\nPestaña 2 de 3"
+- tapOn: "Feria de Málaga 2026\nAug 15, 2026\nRecinto Ferial Cortijo de Torres\nLa\
+    \ gran fiesta del verano malagueño con música, baile y gastronomía."
+- tapOn: "Entendido"
+- tapOn:
+    point: "7%,6%"
+- tapOn:
+    id: "nav_history_tab"
+- tapOn:
+    id: "nav_history_tab"

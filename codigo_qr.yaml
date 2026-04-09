@@ -1,0 +1,14 @@
+appId: com.conextapp.mobile
+---
+- tapOn:
+    id: nav_profile_tab
+- tapOn: |-
+    Compartir mi perfil
+    Compartir mi perfil
+- tapOn: Más
+- tapOn:
+    id: android:id/chooser_copy_button
+- tapOn:
+    point: 88%,27%
+- assertVisible: "Código QR" 
+- takeScreenshot: "resultado_qr"
