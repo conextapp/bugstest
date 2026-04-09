@@ -1,0 +1,14 @@
+# Archivos de video y capturas
+*.mp4
+*.png
+*.jpg
+*.jpeg
+*.log
+
+# Maestro
+.maestro/
+
+# Carpetas de salida
+capturas/
+videos/
+debug/

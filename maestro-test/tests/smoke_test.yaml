@@ -1,0 +1,7 @@
+appId: com.conextapp.mobile
+---
+- runFlow: {file: ../common/login.yaml}
+
+# Buscar bugs desde pantalla de inicio
+- waitForAnimationToEnd: {timeout: 3000}
+- takeScreenshot: "home_screen"
