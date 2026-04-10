@@ -1,0 +1,37 @@
+appId: com.conextapp.mobile
+---
+- launchApp:
+    clearState: true
+
+- tapOn:
+    id: startConnectingButton
+
+- tapOn:
+    point: "61%,9%"
+
+- tapOn: "Correo Electrónico"
+- inputText: "conextapp.docs@gmail.com"
+- tapOn: "Contraseña"
+- inputText: "angeljulian1993"
+- hideKeyboard
+- tapOn:
+    text: "Iniciar sesión"
+    index: 1
+
+# Si aparece el botón continuar, lo pulsamos
+- tapOn: 
+    text: ".*continuar.*"
+    optional: true
+
+# Si aparece el permiso de Android, lo pulsamos (si no, no pasa nada)
+- tapOn: 
+    text: ".*Mientras.*"
+    optional: true
+
+# Paso final: Si Maestro ve "Perfil", el test es un ÉXITO total
+- assertVisible:
+    id: "nav_profile_tab"
+
+- tapOn: |-
+    Vista de Mapa
+    Vista de Mapa, Vista de Mapa
