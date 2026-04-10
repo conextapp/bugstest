@@ -4,8 +4,7 @@ appId: com.conextapp.mobile
     clearState: true
 - tapOn: "empezar a conectar"
 
-- tapOn:
-    id: "loginButton"
+- tapOn: "Continuar con Google"
 
 - tapOn:
     id: "com.google.android.gms:id/account_display_name"
