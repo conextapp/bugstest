@@ -1,0 +1,4 @@
+appId: com.conextapp.mobile
+---
+- launchApp:
+    clearState: true
