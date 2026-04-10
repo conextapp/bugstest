@@ -1,0 +1,8 @@
+appId: com.conextapp.mobile
+---
+- launchApp:
+    clearState: true
+- tapOn: "empezar a conectar"
+
+- tapOn:
+    id: "forgotPasswordLink"
