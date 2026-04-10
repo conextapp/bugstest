@@ -1,0 +1,34 @@
+appId: com.conextapp.mobile
+---
+- runFlow: common/login.yaml
+- swipe:
+    start: "50%,50%"
+    end: "50%,50%"
+    duration: 3000
+
+# 5. Pulsamos el botón Perfil
+- tapOn:
+    id: "nav_profile_tab"
+# 6. Pulsamos  el botón Gestionar Enlaces Sociales
+- tapOn:
+    id: "profile_social_links_button"
+# 7. Espera de 2 segundos de carga
+- waitForAnimationToEnd:
+    timeout: 2000
+
+# 8.  Buscamos la plataforma de Youtube y la pulso
+- tapOn: "Buscar plataformas..."
+- inputText: "You"
+- tapOn: "YouTube\nEn camino"
+
+#9. Iniciamos el proceso de conexión al perfil de prueba añadiendo las credenciales
+- tapOn: "Correo Electrónico"
+- inputText: "conextapp.docs@gmail.com"
+
+- tapOn: "Contraseña"
+- inputText: "angeljulian1993"
+
+# 10. Espera de 2 segundos de carga
+- waitForAnimationToEnd:
+    timeout: 2000
+
