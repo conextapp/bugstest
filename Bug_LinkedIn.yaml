@@ -1,0 +1,25 @@
+appId: com.conextapp.mobile
+---
+- runFlow: common/login.yaml
+- swipe:
+    start: "50%,50%"
+    end: "50%,50%"
+    duration: 3000
+# 1. Cambiar a vista de lista
+- tapOn: ".*Vista de Lista.*"
+
+# 2. Seleccionar el perfil de Julián
+- tapOn: ".*Julián.*"
+
+# 3. Abrir sección de redes profesionales
+- tapOn: ".*Professional Networking.*"
+
+# 4. Abrir el enlace de LinkedIn usando openLink
+- openLink: "https://linkedin.com/in/julian-nahuel-carnevale"
+
+# 5. Esperar a que cambie a navegador (15 segundos)
+- waitForAnimationToEnd:
+    timeout: 15000
+
+# 6. Verificación final - Bug encontrado: página no existe
+- assertVisible: ".*Ir a tu feed.*"
