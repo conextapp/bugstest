@@ -1,0 +1,14 @@
+appId: com.conextapp.mobile
+---
+- launchApp:
+    clearState: true
+- tapOn: "empezar a conectar"
+
+- tapOn:
+    id: "loginButton"
+
+- tapOn:
+    id: "com.google.android.gms:id/account_display_name"
+    index: 1
+
+    
