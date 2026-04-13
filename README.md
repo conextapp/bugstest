@@ -1,4 +1,5 @@
 📱 Conext App - Automated Bug Testing
+
 Este repositorio contiene la suite de pruebas automatizadas End-to-End (E2E) para la aplicación móvil ConextApp, desarrolladas durante mis prácticas de DAM. El objetivo principal es la detección, documentación y replicación de errores de interfaz y flujo de usuario.
 
 🛠️ Tecnologías utilizadas
